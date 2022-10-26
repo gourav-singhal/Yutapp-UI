@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Benefits from '../components/Benefits';
 import TemplateBanner from '../components/TemplateBanner';
+import CreateBrandBanner from '../components/CreateBrandBanner';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Benefits />
         <TemplateBanner />
+        <CreateBrandBanner />
       </main>
     </div>
   )
