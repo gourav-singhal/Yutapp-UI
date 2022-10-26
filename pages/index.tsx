@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Benefits from '../components/Benefits';
+import TemplateBanner from '../components/TemplateBanner';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Benefits />
+        <TemplateBanner />
       </main>
     </div>
   )
