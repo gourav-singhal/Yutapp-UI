@@ -6,11 +6,11 @@ const CustomSignUpButton: FunctionComponent = () => {
     <Link href="">
         <button 
             title="Sign Up For Free Now"
-            className='relative z-50 bg-primaryBlue text-sm py-2 px-4 sm:px-6 sm:py-3 rounded-full font-bold text-white sm:text-white border sm:border-white duration-150 hover:bg-white hover:text-primaryBlue'
+            className='relative z-50 bg-primaryBlue text-sm py-2 px-4 sm:px-6 sm:py-3 rounded-full font-bold text-white sm:text-white border border-primaryBlue duration-150 hover:bg-white hover:text-primaryBlue'
             style={{
                 borderTopRightRadius: "5px"
             }}>
-            Sign Up For Free Now
+            <span>Sign Up For Free Now</span>
         </button>
     </Link>
   )

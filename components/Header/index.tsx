@@ -24,7 +24,7 @@ const Header: FunctionComponent = () => {
         <div>
             <CustomSignUpButton />
         </div>
-        <div className='fixed sm:-top-80 sm:-right-24 sm:p-72 hidden sm:block bg-primaryBlue rounded-full'
+        <div className='circle fixed sm:-top-80 sm:-right-24 sm:p-72 hidden sm:block bg-primaryBlue rounded-full'
         style={{
             background: "linear-gradient(to bottom, #199ef3, #199ef3)"
         }}>
