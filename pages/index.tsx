@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div className='relative p-3 max-w-6xl w-full m-auto'>
+    <div className='relative p-3 max-w-7xl w-full m-auto'>
       <Head>
         <title>Yutapp your way and create your brand</title>
         <meta name="description" content="Transform your YouTube channel to a real App in a few seconds for free." />
