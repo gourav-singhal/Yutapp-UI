@@ -13,7 +13,8 @@ module.exports = {
       dark: "#333333",
       primaryBlue: "#199ef3",
       secondaryBlue: "#3898ec",
-      lightblue: "#199ef3"
+      lightblue: "#199ef3",
+      darkblue: "#01013e"
     }
   },
   plugins: [],
