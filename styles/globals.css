@@ -30,6 +30,11 @@ header button:first-child {
 
 .circle {
   animation: pulse 2s linear infinite;
+  transition: 0.3s;
+}
+
+.circle.hide {
+  opacity: 0;
 }
 
 @keyframes pulse {

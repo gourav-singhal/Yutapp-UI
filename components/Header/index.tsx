@@ -1,9 +1,27 @@
+import React, { FunctionComponent, useEffect, useState } from 'react';
 import Link from 'next/link';
-import React, { FunctionComponent } from 'react';
 
 import CustomSignUpButton from '../CustomSignUpButton';
 
 const Header: FunctionComponent = () => {
+
+  const [isCircleHidden, setCircleHidden] = useState(false);
+
+  useEffect(() => {
+    const windowScroll = () => {
+        if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200) {
+            setCircleHidden(!isCircleHidden);
+        } else {
+            setCircleHidden(isCircleHidden);
+        }
+    }
+
+    window.addEventListener('scroll', (event) => {
+        event.preventDefault();
+        windowScroll();
+    })
+  }, []);
+
   return (
     <header className='p-0 md:pt-3 flex justify-between items-center gap-4'>
         <div>
@@ -24,7 +42,7 @@ const Header: FunctionComponent = () => {
         <div>
             <CustomSignUpButton />
         </div>
-        <div className='circle fixed sm:-top-80 sm:-right-24 sm:p-72 hidden sm:block bg-primaryBlue rounded-full'
+        <div className={`circle fixed sm:-top-80 sm:-right-24 sm:p-72 hidden sm:block bg-primaryBlue rounded-full ${isCircleHidden ? "hide" : ""}`}
         style={{
             background: "linear-gradient(to bottom, #199ef3, #199ef3)"
         }}>
