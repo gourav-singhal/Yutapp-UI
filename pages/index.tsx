@@ -7,6 +7,7 @@ import Benefits from '../components/Benefits';
 import TemplateBanner from '../components/TemplateBanner';
 import CreateBrandBanner from '../components/CreateBrandBanner';
 import Footer from '../components/Footer';
+import MadeByMe from '../components/MadeByMe';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <TemplateBanner />
         <CreateBrandBanner />
         <Footer />
+        <MadeByMe />
       </main>
     </div>
   )
