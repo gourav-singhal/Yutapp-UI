@@ -7,7 +7,7 @@ import CustomSignUpButton from '../CustomSignUpButton';
 const Hero: FunctionComponent = () => {
   return (
     <div className='relative z-50 py-8 sm:py-20 grid place-items-center grid-cols-1 text-center md:text-left md:grid-cols-2 gap-4'>
-        <div className='order-last sm:order-first'>
+        <div className='order-last md:order-first'>
             <h1 className='text-2xl sm:text-4xl font-bold text-dark'>
                 Transform your YouTube channel to a 
                 real App in a few seconds for free.
