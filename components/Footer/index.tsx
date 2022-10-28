@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer: FunctionComponent = () => {
   return (
     <footer className='grid place-items-center gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-        <div className='w-full flex justify-center items-center'>
+        <div className='z-10 bg-white  w-full flex justify-center items-center'>
           <Link href="" legacyBehavior>
             <a title="Yutapp your way and create your brand">
               <img 
