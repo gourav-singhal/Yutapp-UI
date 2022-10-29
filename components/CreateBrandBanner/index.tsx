@@ -38,17 +38,17 @@ const CreateBrandBanner: FunctionComponent = () => {
           <form className='mt-6' action='' onSubmit={(e) => {e.preventDefault()}}>
             <div className='py-2 flex flex-col gap-2'>
               <label className='text-sm md:text-md font-bold'>Full Name</label>
-              <input className='border border-gray2 p-2 text-sm md:text-md md:p-3 outline-none duration-150 focus:border-primaryBlue' type="text" placeholder='Ismail Boularbah' />
+              <input className='border border-gray2 rounded-md p-2 text-sm md:text-md md:p-3 outline-none duration-150 focus:border-primaryBlue' type="text" placeholder='Ismail Boularbah' />
             </div>
 
             <div className='py-2 flex flex-col gap-2'>
               <label className='text-sm md:text-md font-bold'>Email Address</label>
-              <input className='border border-gray2 p-2 text-sm md:text-md md:p-3 outline-none duration-150 focus:border-primaryBlue' type="text" placeholder='boulrbahismail01@gmail.com' />
+              <input className='border border-gray2 rounded-md p-2 text-sm md:text-md md:p-3 outline-none duration-150 focus:border-primaryBlue' type="text" placeholder='boulrbahismail01@gmail.com' />
             </div>
 
             <div className='py-2 flex flex-col gap-2'>
               <label className='text-sm md:text-md font-bold'>Youtube Channel URL</label>
-              <input className='border border-gray2 p-2 text-sm md:text-md md:p-3 outline-none duration-150 focus:border-primaryBlue' type="text" placeholder='https://www.youtube.com/c/YourName' />
+              <input className='border border-gray2 rounded-md p-2 text-sm md:text-md md:p-3 outline-none duration-150 focus:border-primaryBlue' type="text" placeholder='https://www.youtube.com/c/YourName' />
             </div>
 
             <div className='mt-4 flex justify-start items-center gap-3'>
